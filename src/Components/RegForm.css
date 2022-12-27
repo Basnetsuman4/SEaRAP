@@ -1,0 +1,67 @@
+.RegFormInfo{
+    margin:auto;
+    width: auto;
+}
+
+.Card{
+    background-color: rgb(73, 189, 189);
+    margin: 10%;
+}
+
+#firstName{
+    width: auto;
+    margin: 0 5%;
+    display: inline-block;
+}
+
+#lastName{
+    width: auto;
+    margin: 0 5%;
+    display: inline-block;
+}
+
+
+#Address{
+    width: 50%;
+    margin: 0 5%;
+    display: inline-block;
+}
+#ContactInfo{
+    width: 50%;
+    margin: 0 5%;
+    display: inline-block;
+}
+#setusername{
+    width: auto;
+    margin: 0 5%;
+    display: inline-block;
+}
+#setPassword{
+    width: auto;
+    margin: 0 5%;
+    display: inline-block;
+}
+#selectStream{
+    width: 50%;
+    margin: 0 5%;
+    display: inline-block;
+}
+ 
+#ContractField{
+    
+    width: 50%;
+    margin: 0 5%;
+    display: inline-block;
+}
+
+#exampleEmail{
+    width: 50%;
+    display: inline-block;
+    margin: 0 5%;
+}
+
+.sub-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

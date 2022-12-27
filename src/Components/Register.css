@@ -1,0 +1,25 @@
+.RegCard{
+    /* margin: 10rem 10rem;
+    width: auto; */
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    width:auto;
+}
+
+
+.card-title{
+text-align: center;
+}
+
+
+.reg-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img_dummy{
+    border-radius:50%;
+}
