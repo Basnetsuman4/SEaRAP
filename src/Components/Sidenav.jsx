@@ -1,12 +1,27 @@
-import React from 'react'
+// import { Link } from '@mui/material';
+import React /*{ useState }*/ from 'react'
+// import { AppBar}  from '@mui/material';
 import {Sidenavcomp} from './Sidenavcomp';
 import LogoutIcon from '@mui/icons-material/Logout';
+import MenuIcon from '@mui/icons-material/Menu';
+
+
 
 
 function SideNav() {
+  
+   
+  
+
+  
   return (
     <>
-    <div className='Sidenav'>
+    {/* <AppBar> */}
+
+<div   className='Sidenav' >
+      <div className='menuToggle' /*onClick={}*/ >
+          <icon id='hamburger'><MenuIcon /></icon>
+      </div>
       <ul className='SidenavList'>
     
         {Sidenavcomp.map((val,key) => {
@@ -35,8 +50,9 @@ function SideNav() {
 
     </div>
 
-    </>
+    {/* </AppBar> */}
+        </>
     )
 }
 
-export default SideNav
+export default SideNav;
