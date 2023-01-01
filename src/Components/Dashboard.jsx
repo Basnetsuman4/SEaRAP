@@ -2,7 +2,6 @@ import React from 'react'
 import './Dashboard.css'
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Icon } from '@mui/material';
-import Myimage from './image/Pro_logo.png';
 
 
 
