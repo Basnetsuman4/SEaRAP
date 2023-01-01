@@ -1,5 +1,115 @@
+/*----------  CSS for whole dashboard section ----------*/
 .dashboard{
-    margin-left:18%;
     padding: 0px;
-    background-color: palegreen;
+    margin: 0px;
+    height:100%;
+    width: 80%;
+    position: fixed; 
+    left: 20%;
+    background-color: #D9D9D9;
 }
+
+
+/*----------  CSS for dashboard's header section ----------*/
+
+.dashboard .dash_header{
+        background-color: #fff;
+        border-radius: 50px 0px 0px 0px;
+        height: 12%;
+        display: flex;
+        flex-direction: row;   
+        position: relative;     
+    }
+
+         
+
+        /* ----------  CSS for dashboard's header's notification div ----------*/
+        .dashboard .notification_div{
+            border-radius: 50px 0px 0px 0px;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+            padding-right: 4px;
+        }
+
+            .notification_div .badge{
+                background-color: #D9D9D9;
+                border-radius: 50%;
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            .badge #bellIcon{
+                color: black;
+            }
+
+
+        /*----------  CSS for dashboard's header's Username and image div ----------*/
+
+
+        .dash_header .userName_div{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .showUser{
+            height: 2.5rem;
+            width: 80%;
+            background-color: #D9D9D9;
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        
+        }
+        
+        .showUser .userName{
+            width: 90%;
+            height: 100%;
+            background-color: #D9D9D9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .showUser .userImage{
+            overflow: hidden;
+            width: 2.5rem;
+            height: auto    ;
+            background-color: aqua;
+            border-radius: 50%;
+            border: 1px solid black;
+            object-fit: cover;
+            
+        }
+        .userImage img{
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;
+        }
+            
+
+            
+        
+         
+
+
+    /*----------  CSS for dashboard's separation line section ----------*/
+    .dashboard .dash_separator{
+        height: 0.5%;
+        background-color: rgb(0, 0, 0);
+    }
+        
+        
+    /*----------  CSS for dashboard's body section ----------*/
+    .dashboard .dash_body{
+        background-color: #fff;
+        height: 87.5%;
+        width: 100%;
+        }    
