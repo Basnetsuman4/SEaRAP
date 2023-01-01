@@ -33,5 +33,4 @@ export const Sidenavcomp = [
 //     icon: <LogoutIcon/>,
 //     link:"/logout"
 // }
-
 ]
