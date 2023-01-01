@@ -2,13 +2,15 @@ import './App.css';
 // import RegCard from './Components/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import RegForm from './Components/RegForm';
-import Dashboard from './Components/Dashboard';
+import Home from './Components/home/Home';
+
+
 
 function App() {
   return (<>
     {/* <RegCard /> */}
-    <Dashboard/>
     {/* <RegForm /> */}
+    <Home />
   </>
   );
 }
