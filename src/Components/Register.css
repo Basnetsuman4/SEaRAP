@@ -1,25 +1,95 @@
-.RegCard{
-    /* margin: 10rem 10rem;
-    width: auto; */
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    /* transform: translate(-50%, -50%); */
-    width:auto;
-}
-
-
-.card-title{
-text-align: center;
-}
-
-
-.reg-btn{
+.container{     
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    align-items: center;
 }
 
-.img_dummy{
-    border-radius:50%;
+.midBox{
+    width: 100%;
+    padding: 2rem;
+    display:flex;
+
 }
+
+
+/*******************For Student****************/
+
+.forStudent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardfs{
+    height: 100%;
+    width: 60%;
+}
+
+
+/*******************For Staff****************/
+
+.forStaff{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardfst{
+    height: 100%;
+    width: 60%;
+}
+
+
+/*******************For Image Section****************/
+
+.imgsec{
+    margin: 0px 3.5rem;
+    height: 80%;
+    width: 60%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+img{
+    background-color: #D9D9D9;
+    border-radius: 40px;
+    height: 10rem;
+}
+
+
+/*******************For Button Section****************/
+
+.btnsec{
+    margin-top: 2rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsec #btn{
+    border-radius: 25px;
+    height: 80%;
+    width: 80%;
+    background-color: #D9D9D9;
+    font-weight: bold;
+}
+
+#btn:hover{
+    box-shadow: 0px 0px 1rem rgb(24, 154, 197);
+}
+
+
+
+
+
+
+
