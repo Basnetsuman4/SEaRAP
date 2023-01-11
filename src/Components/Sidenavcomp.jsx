@@ -14,7 +14,7 @@ export const Sidenavcomp = [
 {
     title: 'Registration',
     icon: <PersonAddIcon/>,
-    link:"/registration"
+    link:"/register"
 },
 {
     title: 'Results',
