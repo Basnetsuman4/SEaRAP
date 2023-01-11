@@ -82,20 +82,17 @@
             overflow: hidden;
             width: 2.5rem;
             height: auto    ;
-            background-color: aqua;
             border-radius: 50%;
             border: 1px solid black;
             object-fit: cover;
             
         }
-        .userImage img{
+
+        #img-profile{
             border-radius: 50%;
             height: 100%;
             width: 100%;
-        }
-            
-
-            
+        }    
         
          
 
@@ -113,3 +110,99 @@
         height: 87.5%;
         width: 100%;
         }    
+
+     .dash_body .header{
+        height: 25%;
+        width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* padding-top: 5px ;         */
+        
+    }
+
+    .greet{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        margin-left: 35%;
+    }
+    .message{
+        height: 80%;
+        width: 100%;
+        align-self: flex-end;
+        background-color: #36AFBF;
+        border-radius: 30px;
+    }
+
+    
+    .greet_mgs{
+        height: 60%;
+        width: 80%;
+        display: flex;
+        padding-left:10%;
+        align-items: center;
+        font-size: 35px;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+    
+    
+    .back{
+        height: 40%;
+        width: 80%;
+        display: flex;
+        padding-left:10%;
+        font-size: 25px;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+    
+    .profile-image{
+        position: relative;
+        height: 90%;
+        width: 25%;
+        right: 15%;
+        align-self: flex-end;
+        border-radius: 50%;
+        border: 1px solid #000;
+
+    }
+
+    .profile_info{
+        height: 75%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoContainer{
+        overflow-x: auto;
+        height: 80%;
+        width: 80%;
+        border-radius: 3rem;
+        background-color: #A5C7DA;
+    }
+    
+    .infoTitle{
+        height: 15%;
+        padding-left: 2rem;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    
+    .informations{
+        height: 84%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 2rem 0rem 2rem 2rem;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
