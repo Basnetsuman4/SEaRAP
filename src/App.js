@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import RegForm from './Components/RegForm';
 import Home from './Components/home/Home';
-import Login from './Components/Login';
+// import Login from './Components/Login';
 
 
 
@@ -12,7 +12,7 @@ function App() {
     {/* <RegCard /> */}
     {/* <RegForm /> */}
     <Home />
-    <Login/>
+    {/* <Login/> */}
   </>
   );
 }
