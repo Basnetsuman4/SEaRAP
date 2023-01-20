@@ -1,13 +1,15 @@
 import React from 'react'
-// import Dashboard from '../Dashboard';
-// import Sidenav from '../Sidenav';
+import Dashboard from '../Dashboard';
+import Sidenav from '../Sidenav';
+
+
 
 const Home = () => {
 
     return (
         <>
-            {/* <Sidenav />
-            <Dashboard /> */}
+            <Sidenav />
+            <Dashboard />
         </>
 
     );
