@@ -1,0 +1,71 @@
+.initialReg{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    height: auto;
+    width: 30%;
+    border-radius: 25px;
+    border: 1rem;    
+    border-color: aqua;
+    box-shadow: 0px 0px 20px 15px lightblue;
+}
+
+.formBox .title{
+    text-align: center;
+    padding: 5% 0% 5%;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .inputBx{
+
+    margin: 0.3rem 0rem;
+}
+
+.formBox .inputBx span{
+    margin-bottom: 5px;
+    font-size: 16px;
+    display: inline-block;
+    color:#607db8;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+.formBox .inputBx input{
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    color: #607b8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.formBox .inputBx input[type="submit"]{
+    background: #07e2a0;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0rem;
+}
+
+.formBox .inputBx input[type="submit"]:hover{
+    background: #36f5b5;
+}
