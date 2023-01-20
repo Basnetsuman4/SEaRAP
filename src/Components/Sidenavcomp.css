@@ -71,6 +71,7 @@
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+    transition:  1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 
@@ -95,6 +96,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+
 }
 
 
