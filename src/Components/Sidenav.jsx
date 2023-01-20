@@ -1,6 +1,4 @@
-// import { Link } from '@mui/material';
 import React /*{ useState }*/ from 'react'
-// import { AppBar}  from '@mui/material';
 import {Sidenavcomp} from './Sidenavcomp';
 import LogoutIcon from '@mui/icons-material/Logout';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -16,11 +14,10 @@ function SideNav() {
   
   return (
     <>
-    {/* <AppBar> */}
 
 <div   className='Sidenav' >
       <div className='menuToggle' /*onClick={}*/ >
-          <icon id='hamburger'><MenuIcon /></icon>
+          <div id='hamburger'><MenuIcon /></div>
       </div>
       <ul className='SidenavList'>
     
@@ -44,13 +41,12 @@ function SideNav() {
           })}
       </ul>
       <div className='Logout_btn' /*onClick={}*/ >
-          <icon id='lobtn'><LogoutIcon /> Log Out</icon>
+          <div id='lobtn'><LogoutIcon /> Log Out</div>
       </div>
           
 
     </div>
 
-    {/* </AppBar> */}
         </>
     )
 }
