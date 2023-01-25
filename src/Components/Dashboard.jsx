@@ -3,10 +3,12 @@ import './Dashboard.css'
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Icon } from '@mui/material';
 // import Profile from './Profile';
- import Register from './Register';
+//  import Register from './Register';
 // import SearchResult from './SearchResult';
 // import RegisterInitialForm from './RegisterInitialForm';
-
+// import RegForm from './RegForm';
+// import Account from './Account';
+import DueFee from './DueFee';
 
 const Dashboard = () => {
   return (
@@ -45,7 +47,10 @@ const Dashboard = () => {
 
                     <div className='dash_body'>
                         {/* <Profile/> */}
-                        <Register/>
+                        {/* <Register/> */}
+                        {/* <RegForm/> */}
+                        {/* <Account/> */}
+                        <DueFee/>
                         {/* <RegisterInitialForm/> */}
                     </div>
 
@@ -86,7 +91,7 @@ function currentTime()
      let time = hh + ":" + mm + ":" + ss + " " + session;
   
     document.getElementById("clock").innerText = time; 
-    let t = setTimeout(function(){ currentTime() }, 1000); 
+    // let t = setTimeout(function(){ currentTime() }, 1000); 
 }
 setInterval(currentTime, 10);
 
