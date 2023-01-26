@@ -26,7 +26,35 @@ const SearchResult = () => {
         </div>
 
         <div className="body">
-            
+            <div className="card">
+                 <div className="individualCard">
+                    <div className="imageSec">
+                    <img id="img-profile" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9j5kXSP12ylfgHx30qabxtDu0GAX1cm19TTaKZVA1hONj-t6MfsXechjGt6hyYoPBD4Y&usqp=CAU" alt="demo" rel="norefferer" />
+                    </div>
+                    <div className="nameId">
+                        <div className="name">
+                            <span>Suman Basnet</span>
+                        </div>
+                        <div className="id">
+                            <span>LEC076BCT037</span>
+                        </div>
+                    </div>
+                    <div className="option">
+                        <div className="viewBtn">
+                            <button id='view'>View</button>
+                        </div>
+                        <div className="resultBtn">
+                            <button id='result'>Results</button>
+                        </div>
+                        <div className="editBtn">
+                            <button id='edit'>Edit</button>
+                        </div>
+                        <div className="deleteBtn">
+                            <button id='delete'>Delete</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
         </div>
 
         </>
