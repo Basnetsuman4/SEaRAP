@@ -48,6 +48,10 @@ Input{
     color: red;
 }
 
+input[type="email"]:valid {
+    color: green;
+  }
+
 .form-select {
     margin-left: 2rem;
     display: block;
