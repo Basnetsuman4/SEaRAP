@@ -101,7 +101,7 @@ const RegForm =()=>{
                     
                     <FormGroup className='Contract'>
                         <Label for="totalfee">Total Fee</Label>
-                        <Input type="number" name="totalfee" id="Totalfee" placeholder="Enter Total Fee" /><br/>
+                        <Input type="number" name="totalfee" id="Totalfee" placeholder="Enter Total Fee" min="400000" /><br/>
                         <Label for="Contractfield">Contract Applied</Label>
                         <Input type="textarea" name="Contract" id="ContractField" />
                     </FormGroup>
