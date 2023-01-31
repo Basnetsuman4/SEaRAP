@@ -7,7 +7,10 @@ import { useFormik } from 'formik'
 const validate = (values) => {
     const errors = {}
   
-    if (!values.email) {
+    if(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)){
+        errors.email = 'Valid Email'
+    }
+    else if (!values.email) {
       errors.email = 'Email Required'
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
       errors.email = 'Invalid email address'
@@ -62,7 +65,7 @@ const RegForm =()=>{
 
                     <FormGroup className='email'>
                         <Label for="exampleEmail">Email</Label>
-                        <Input type="email"  name="email" id="Email" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} placeholder="Enter Email" /><br/>
+                        <Input type="email"  name="email" autoComplete='off' id="Email" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} placeholder="Enter Email" /><br/>
                         {formik.touched.email && formik.errors.email && (
                             <span>{formik.errors.email}</span>
                         )}
@@ -80,7 +83,7 @@ const RegForm =()=>{
 
                     <FormGroup className='address'>
                         <Label for="setAddress">Address</Label>
-                        <Input type="email" name="Address" id="Address" placeholder="Enter Address" />
+                        <Input type="email" name="Address" id="Address"  placeholder="Enter Address" />
                     </FormGroup>
 
                     <FormGroup className='stream'>
@@ -94,14 +97,14 @@ const RegForm =()=>{
 
                     <FormGroup className='setIdentity'>
                         <Label for="username">Username</Label>
-                        <Input type="text" name="username" id="setusername" placeholder="Set Username" />
+                        <Input type="text" name="username" id="setusername" autoComplete='off' placeholder="Set Username" />
                         <Label for="Password">Password</Label>
-                        <Input type="text" name="setPassword" id="setPassword" placeholder="Set Password" />
+                        <Input type="text" name="setPassword" id="setPassword" autoComplete='off' placeholder="Set Password" />
                     </FormGroup>
                     
                     <FormGroup className='Contract'>
                         <Label for="totalfee">Total Fee</Label>
-                        <Input type="number" name="totalfee" id="Totalfee" placeholder="Enter Total Fee" min="400000" /><br/>
+                        <Input type="number" name="totalfee" id="Totalfee" placeholder="Enter Total Fee (Min. Rs 400000)" min="400000" /><br/>
                         <Label for="Contractfield">Contract Applied</Label>
                         <Input type="textarea" name="Contract" id="ContractField" />
                     </FormGroup>
