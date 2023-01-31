@@ -51,7 +51,7 @@ const ChangePassword =()=> {
                                     <FormGroup>
                                         <Label for="new-password">New Password</Label>
                                         <div className='ipic' >
-                                            <Input type={state2 ? "text" : "password"} name="new-password" id="new-password" placeholder="Enter new-password" />
+                                            <Input type={state2 ? "text" : "password"} name="new-password" id="new-password" placeholder="Enter New-Password" />
                                             <span onClick={toggleBtn2} >
                                                 {state2 ? <VisibilityOffIcon/>:
                                                     <VisibilityIcon/>
@@ -62,7 +62,7 @@ const ChangePassword =()=> {
                                     <FormGroup>
                                         <Label for="reenter-new-password">Re-Enter New Password</Label>
                                         <div className='ipic'>
-                                            <Input type={state3 ? "text" : "password"} name="reenter-new-password" id="reenter-new-password" placeholder="Re-Enter Username" />
+                                            <Input type={state3 ? "text" : "password"} name="reenter-new-password" id="reenter-new-password" placeholder="Re-Enter New Password" />
                                             <span onClick={toggleBtn3} >
                                                 {state3 ? <VisibilityOffIcon/>:
                                                     <VisibilityIcon/>
