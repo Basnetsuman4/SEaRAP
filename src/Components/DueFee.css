@@ -19,10 +19,48 @@
 }
 
 
-.card{
-    margin-top: 2rem;
-    height: 350px;
-    width: 95%;
+.mainBody{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.leftDiv{
+    width: 60%;
+    display: flex;
+    justify-content: center;    
+}
+
+.rightDiv{
+    width: 40%;
+    display: flex;
+    justify-content: center;    
+}
+
+.card1{
+    margin-top: 5%;
+    min-height: auto;
+    max-height: 70%;
+    width: 90%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.card2{
+    margin-top: 7.5%;
+    height: 70%;
+    width: 80%;
     background-color: #d9d9d9;
     border-radius: 10px;
     display: flex;
@@ -30,16 +68,41 @@
     align-items: center;
 }
 
-.card h4{
-    font-weight: bolder;
+.card2 .c2Head{
+    height: 15%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 .c2Head span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card2 .c2Body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+Label{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
 }
 
 .inBox{
-    height: 60px;
-    width: 80%;
+    height: 50px;
+    width: 90%;
     background-color: #B9b9b9;
     border-radius: 45px;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +110,6 @@
 
 
 .paymentBtn{
-    margin-top: 4rem;
     height: 50px;
     width: 100%;
     display: flex;
@@ -57,15 +119,18 @@
 
 .paymentBtn #btn{
     border-radius: 25px;
-    height: 100%;
+    height: 80%;
     width: 12rem;
     background-color:aqua;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .paymentBtn #btn span{
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 
@@ -74,20 +139,121 @@
     box-shadow: 0px 0px 20px 15px lightblue;
 }
 
-@media (max-width: 560px) {
 
-    .title h1 {
-        font-weight:bold;
+
+#popup{     /* toggle box*/
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 01s;
+    border-radius: 15px;
+}
+
+#popup.active {     /*activate toggle box*/
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.pay {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+button      /* toggle message close button*/ 
+{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+    background: aqua;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width: 806px) {
+
+    .title{
+        height: auto;
+    }
+
+    .title h1{
+        font-weight: 600;
+    }
+
+    .mainBody {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        overflow: auto;
+    }
+ 
+
+    .leftDiv {
+        margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom:-5rem ;
+    }
+
+    h4{
+        padding: 0px 20px;
+        font-size: 12px;
+    }
+
+    .rightDiv {
+        /* background-color: red; */
+        margin-bottom: 8rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card2{
+        height: 100%;
+        width: 90%;
+    }
+
+    .card2 .c2Head{
+        height: 25%;
     }
     
-    .card h4{
-        font-weight:bold;
-        font-size: medium;
+    .card2 .c2Head span{
+        font-weight: 500;
     }
-
-    .paymentBtn #btn span {
-        font-weight: bold;
-        font-size: 15px;
+    .form-select{
+        font-size: 11px;
+        overflow: auto;
     }
     
+    .form-control{
+        font-size: 12px;
+    }
+
+    .paymentBtn{
+        height: auto;
+        width: 68%;
+    }
+    
+
+
 }
