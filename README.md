@@ -4,15 +4,15 @@ This project is all about a webapp that will help the educational institute as w
 
 ## Contributors
 
-  *Malisha Maharjan
-  *Jeshika Maharjan
+  *Malisha Maharjan<br>
+  *Jeshika Maharjan<br>
   *Suman Basnet
 
 ### Technologies Used
 
-  *Desigining Tool : Figma
-  *Frontend : React
-  *Database : MySQL
+  *Desigining Tool : Figma<br>
+  *Frontend : React<br>
+  *Database : MySQL<br>
   *Backend : DJango
   
   ### Note: This repo is only for the static pages used for project.
