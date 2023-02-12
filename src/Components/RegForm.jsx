@@ -1,6 +1,15 @@
 import React, { useState } from 'react'
-import { Button, Form, FormGroup, Label, Input, CardHeader, Card, CardBody } from 'reactstrap'
-import './CSS File/RegForm.css'
+import {
+    Button,
+    Form,
+    FormGroup,
+    Label,
+    Input,
+    CardHeader,
+    Card,
+    CardBody,
+} from 'reactstrap'
+import './RegForm.css'
 import { useFormik } from 'formik'
 
 const validate = (values) => {

@@ -1,4 +1,4 @@
-import './CSS File/Account.css'
+import './Account.css'
 
 const Account = () => {
     return (

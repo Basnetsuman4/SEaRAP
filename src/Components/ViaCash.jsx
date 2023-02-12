@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
-import './CSS File/ViaCash.css'
+import './ViaCash.css'
 
 const ViaCash = () => {
     const toggle = () => {

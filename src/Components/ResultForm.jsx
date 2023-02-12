@@ -1,8 +1,7 @@
 import React from 'react'
 import { Table, CardHeader, Input } from 'reactstrap'
-import './CSS File/RegForm.css'
+import './RegForm.css'
 import { Card, CardBody } from 'reactstrap'
-
 
 const ResultForm = () => {
     const toggle = () => {

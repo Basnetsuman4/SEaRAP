@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS File/Statement.css'
+import './Statement.css'
 import { Card, CardHeader, CardBody } from 'reactstrap'
 
 const Statement = () => {

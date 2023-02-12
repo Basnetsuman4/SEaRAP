@@ -1,6 +1,6 @@
 import Autocomplete from '@mui/material/Autocomplete'
 import TextField from '@mui/material/TextField'
-import './CSS File/SearchResult.css'
+import './SearchResult.css'
 
 const SearchResult = () => {
     return (

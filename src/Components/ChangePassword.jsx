@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './CSS File/ChangePassword.css'
+import './ChangePassword.css'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import VisibilityIcon from '@mui/icons-material/Visibility'
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'

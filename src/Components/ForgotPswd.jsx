@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS File/ForgotPswd.css'
+import './
 
 export default function ForgotPswd() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS File/Payoption.css'
+import './
 
 const Payoption = () => {
     return (

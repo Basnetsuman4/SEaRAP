@@ -3,7 +3,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 import PersonAddIcon from '@mui/icons-material/PersonAdd'
 import DescriptionIcon from '@mui/icons-material/Description'
 import AutoGraphIcon from '@mui/icons-material/AutoGraph'
-import './CSS File/Sidenavcomp.css'
+import './Sidenavcomp.css'
 
 export const Sidenavcomp = [
     {

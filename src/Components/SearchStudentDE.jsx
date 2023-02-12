@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS File/SearchStudentDE.css'
+import './SearchStudentDE.css'
 import { Card, CardHeader, CardBody, Label, Input } from 'reactstrap'
 
 const SearchStudentDE = () => {
@@ -73,7 +73,7 @@ const SearchStudentDE = () => {
                         </div>
                     </div>
                 </div>
-                <CardBody className='SCard'>
+                <CardBody className="SCard">
                     <div className="search-card">
                         <div className="individualCard">
                             <div className="imageSec">

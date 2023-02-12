@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS File/InputResults.css'
+import './
 
 const InputResults = () => {
     return (
