@@ -1,0 +1,114 @@
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.sections {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.selectsection {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btnsection {
+    margin-top: 2rem;
+}
+
+.inputBx {
+    width: 8rem;
+}
+#searchbtn {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+}
+/* 
+.card-body {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+::-webkit-scrollbar {
+    /* hides the scroll bar*/
+    width: 0.2em;
+    background-color: transparent;
+}
+
+.search-card {
+    position: relative;
+    overflow: auto;
+    margin-top: 2rem;
+    max-height: 55vh;
+    min-height: auto;
+    width: 95%;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.SCard{
+    display: flex;
+    justify-content: center;
+}
+
+.individualCard {
+    height: 8rem;
+    width: 95%;
+    margin: 1rem 0rem;
+    border-radius: 20px;
+    background-color: #e48888;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.individualCard .imageSec #img-profile {
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.imageSec {
+    height: 7em;
+    width: 7rem;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    height: 90%;
+    width: 65%;
+    margin: 0 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.option button {
+    background-color: aqua;
+    border-radius: 15px;
+    width: 7rem;
+    font-weight: 500;
+}
+
+.option button:hover {
+    box-shadow: 0px 0px 15px 2px rgb(0, 173, 231);
+}

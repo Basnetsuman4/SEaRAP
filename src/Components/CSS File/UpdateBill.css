@@ -1,0 +1,155 @@
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.card-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.statm-card {
+    padding: 1rem;
+    max-height: 70vh;
+    min-height: auto;
+    width: 95%;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.AccFormInfo {
+    min-height: auto;
+    width: 100%;
+    padding: 1rem 2rem;
+    border: red;
+}
+
+.form-label {
+    margin: 0px 1.5rem 2px;
+}
+
+.naming {
+    display: inline-flex;
+}
+
+.name {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+Input {
+    margin-left: 2rem;
+}
+
+.form-control {
+    width: 85%;
+}
+
+.form-select {
+    margin-left: 2rem;
+    display: block;
+    width: auto;
+}
+
+#batch[type='text'] {
+    width: 35%;
+    margin-bottom: 1rem;
+}
+#sem[type='text'] {
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+#dueFee[type='number'] {
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+#remark[type='text'] {
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+.Identity [type='text'] {
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+
+form .sub-btn {
+    display: flex;
+    justify-content: center;
+}
+
+form .sub-btn Button:hover {
+    background-color: aqua;
+}
+
+::-webkit-scrollbar {
+    width: 0.25em;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #686666;
+}
+
+.contain#blur.active {
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+button {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+    background: aqua;
+    border-radius: 15px;
+}
+
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 02s;
+    border-radius: 15px;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 01.5s;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}

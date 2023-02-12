@@ -13,6 +13,7 @@
 /*----------  CSS for dashboard's header section ----------*/
 
 .dashboard .dash_header{
+        width: 120%;;
         background-color: #fff;
         border-radius: 50px 0px 0px 0px;
         height: 12%;
@@ -65,7 +66,7 @@
             width: 40%;
             height: 100%;
             display: flex;
-            justify-content: center;
+            justify-content:flex-end;
             align-items: center;
         }
 

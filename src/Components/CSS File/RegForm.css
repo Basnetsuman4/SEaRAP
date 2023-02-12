@@ -1,0 +1,168 @@
+.Card{ 
+    position:relative;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.RegFormInfo{
+    height: 75vh;
+    width: 100%;
+    padding: 1rem 2rem;
+    overflow: auto;
+    border: red;
+}
+
+.form-label{
+    margin: 0px 1.5rem 2px;
+}
+
+.naming{
+    display: inline-flex;
+}
+
+.name{
+    width: 90%;
+    display: flex;   
+    flex-direction: column;
+}
+
+Input{
+    margin-left: 2rem;
+}
+
+.form-control{
+    width:85%;
+}
+
+.email{
+    margin-bottom: 0;
+}
+
+.email span{
+    padding-left: 40px;
+    color: red;
+}
+
+input[type="email"]:invalid {
+    color: red;
+}
+
+input[type="email"]:valid {
+    color: green;
+}
+
+.email span {
+    color: green;
+}
+
+.form-select {
+    margin-left: 2rem;
+    display: block;
+    width: auto;
+}
+
+#batch[type="text"]{
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+#date{
+    width: 50%;
+}
+
+.setIdentity [type="text"]{
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+#ContractField{
+    margin-left: 2rem;
+}
+
+form .sub-btn{
+    display: flex;
+    justify-content: center;
+}
+
+form .sub-btn Button:hover{
+    background-color: aqua;
+}
+
+::-webkit-scrollbar {
+    width: 0.25em;
+    background-color: #F5F5F5;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #686666;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.contain#blur.active{
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+  
+button{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+    background: aqua;
+    border-radius: 15px;
+}  
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 02s;
+    border-radius: 15px;
+}  
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 01.5s;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+@media (max-width: 650px) {
+  
+    #popup.active {
+        width: 70%;
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+}

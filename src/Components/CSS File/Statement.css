@@ -64,3 +64,23 @@
 #col4{
     font-size: 20px;
 }
+
+@media (max-width:935px){
+
+    .row .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .row #col4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+}

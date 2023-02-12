@@ -1,8 +1,8 @@
-import React from 'react';
-import './Payoption.css';
+import React from 'react'
+import './CSS File/Payoption.css'
 
-const Payoption =()=>{
-    return(
+const Payoption = () => {
+    return (
         <>
             <div className="body">
                 <div className="optionCard">
@@ -11,22 +11,22 @@ const Payoption =()=>{
                     </div>
                     <div className="cardBody">
                         <div className="cash">
-                            <button id='btn'>Via Cash</button>
+                            <button id="btn">Via Cash</button>
                         </div>
                         <div className="voucher">
-                            <button id='btn'>Voucher</button>
+                            <button id="btn">Voucher</button>
                         </div>
                         <div className="qr">
-                            <button id='btn'>Via QR</button>
+                            <button id="btn">Via QR</button>
                         </div>
                         <div className="epay">
-                            <button id='btn'>Via EPay</button>
+                            <button id="btn">Via EPay</button>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </>
     )
 }
 
-export default Payoption;
+export default Payoption
