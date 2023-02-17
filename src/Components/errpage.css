@@ -1,0 +1,48 @@
+.body {
+    height: 100vh;
+}
+
+.FPbody {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8rem;
+}
+
+
+input {
+    margin-top: 1rem;
+    width: 90%;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border: 1px solid #607d8b;
+    border-radius: 30px;
+}
+
+
+input[type='submit'] {
+        background: #07e2a0;
+        margin-top: 1.5rem;
+        width: 10%;
+        color: #fff;
+        outline: none;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+}
+    
+input[type='submit']:hover {
+        background: #36f5b5;
+}
